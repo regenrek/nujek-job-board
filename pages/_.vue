@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Blok v-if="story.content" :blok="story.content" />
-  </div>
+  <Blok v-if="story.content" :blok="story" />
 </template>
 <script>
 export default {
@@ -16,16 +14,10 @@ export default {
         }
       )
 
-      // alternative: if you plan to use nuxt-storyblok-queries
-      // const { story } = await $storyblok.getCurrentStory({
-      //   resolve_links: 'url',
-      // })
-
       return {
         story: currentPage.data.story
       }
     } catch (e) {
-      console.error('Exception', e)
       error({
         statusCode: 404,
         message: e.message
