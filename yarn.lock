@@ -1083,10 +1083,29 @@
     axios "^0.21.4"
     storyblok-nuxt "^2.0.1"
 
+"@nujek/storyblok@^3.0.15":
+  version "3.0.15"
+  resolved "https://registry.npmjs.org/@nujek/storyblok/-/storyblok-3.0.15.tgz#c713f467b0b3de2adf35a985c50db3b28ac30c67"
+  integrity sha512-/TePnuNePX3zMEwl0bVNJ1918JJA7DNCn9gCgGpyYOIhtUGxUbPLxkloqR/wJBVvqJAIH6cGojebETpPGT3Xyg==
+  dependencies:
+    "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
+    "@nujek/shared" latest
+    "@nuxtjs/i18n" "^7.2.0"
+    axios "^0.21.4"
+    storyblok-nuxt "^2.0.1"
+
 "@nujek/ui@^3":
   version "3.0.4"
   resolved "https://registry.npmjs.org/@nujek/ui/-/ui-3.0.4.tgz#49a0f1b00efee6539ce5e4ab17f41a76c588f12d"
   integrity sha512-xVwA2XvJUf0asD3XQW/E/fjkwKG0iKeI9xnGKHZ9+PCrq+fZUPy+hV99opQ8UUSuBgM5GtACPWkWRtQjm8irvg==
+  dependencies:
+    lazysizes "^5.3.0-beta1"
+    lodash.get "^4.4.2"
+
+"@nujek/ui@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.npmjs.org/@nujek/ui/-/ui-3.0.5.tgz#6227a091a2b02b82246a352bc4c8636da2d6257c"
+  integrity sha512-SgT0hWo8XQVoUWvrKvHog4Oz6cSszJALLc1NkVzezMsYoOeYVEuY7ReZLjuxvdhCb92BnGMZl3ztEEX0g6MIyg==
   dependencies:
     lazysizes "^5.3.0-beta1"
     lodash.get "^4.4.2"
